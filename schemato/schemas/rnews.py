@@ -1,3 +1,8 @@
+import sys, os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
+# why does the above work?
+
 from validator import RdfValidator
 from schemadef import RdfSchemaDef
 
